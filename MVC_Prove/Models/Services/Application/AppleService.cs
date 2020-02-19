@@ -35,6 +35,10 @@ namespace MVC_Prove.Models.Services.Application
             IEnumerable<AppleViewModel> mela = apples.Where(apple => apple.Variety == "Stark Delicious");
             return mela;
         }
+
+
+
+        //--------------------------------------------errore-----------------
         //public CatalogoProdotti GetApple()
         //{
         //    CatalogoProdotti Mela = new CatalogoProdotti(GetListApple());
